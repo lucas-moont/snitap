@@ -1,0 +1,16 @@
+html,
+body{
+  overflow-x: hidden;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+}
