@@ -1,0 +1,8 @@
+.logo-link{
+  display: inline-flex;
+  transition: 0.3s;
+
+  &:hover{
+    transform: rotate(-90deg);
+  }
+}

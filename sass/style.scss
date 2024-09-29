@@ -1,14 +1,18 @@
 @import './utils/variables';
 @import './base/reset.scss';
-@import './utils/flex.scss';
-@import './utils/alignments';
 @import './base/globals.scss';
 @import './base/headings.scss';
+
+@import './utils/text-colors.scss';
+@import './utils/flex.scss';
+@import './utils/alignments';
+
 @import './utils/gaps.scss';
 
 @import './animations/enter-right.scss';
 
 @import './components/header';
 @import './components/columns.scss';
+@import './components/logo-link.scss';
 
 @import './sections/hero.scss'
