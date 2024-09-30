@@ -1,0 +1,58 @@
+footer {
+  padding: 32px;
+
+  nav {
+    a {
+      font-weight: 600;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transition: 0.5s;
+        background-color: $sky-light;
+        height: 3px;
+        bottom: -4px;
+        left: 0;
+        transform: scale(0);
+        transform-origin: center;
+      }
+
+      &:hover {
+        &::after {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+
+  .social-icons {
+    a {
+      display: inline-flex;
+      padding: 4px;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+
+      &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: $sun;
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+        transform-origin: center;
+        transform: scale(0);
+        transition: 0.3s;
+      }
+
+      &:hover {
+        &::after {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}

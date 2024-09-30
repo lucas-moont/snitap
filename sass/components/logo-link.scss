@@ -1,8 +1,15 @@
-.logo-link{
+.logo-link {
   display: inline-flex;
-  transition: 0.3s;
+  font-size: 2rem;
+  font-weight: 600;
 
-  &:hover{
-    transform: rotate(-90deg);
+  img {
+    transition: 0.3s;
+  }
+
+  &:hover {
+    img {
+      transform: rotate(-90deg);
+    }
   }
 }
