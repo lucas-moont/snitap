@@ -1,0 +1,13 @@
+.text-marquee-loop{
+  animation: text-marquee-loop 2s linear infinite;
+}
+
+@keyframes text-marquee-loop{
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-96.11px);
+  }
+}

@@ -3,13 +3,11 @@
   
   > div{
     justify-content: flex-start;
+    width: 100%;
   }
 
   .col{
-    width: 10%;
     flex-grow: 0;
-    flex-basis: 10%;
     flex-shrink: 0;
-    justify-content: center;
   }
 }
