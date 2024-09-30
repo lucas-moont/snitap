@@ -1,0 +1,29 @@
+.primary-btn{
+  background-color: $sun;
+  border-radius: $big-border-radius;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.secondary-btn{
+  transition: 0.5s;
+  span{
+    &:first-of-type{
+      height: 7.2rem;
+      width: 7.2rem;
+      background-color: $white;
+      box-shadow: 0px 57px 16px 0px rgba(0, 0, 0, 0.00), 0px 36px 15px 0px rgba(0, 0, 0, 0.01), 0px 20px 12px 0px rgba(0, 0, 0, 0.05), 0px 9px 9px 0px rgba(0, 0, 0, 0.09), 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.primary-btn,
+.secondary-btn{
+  &:hover{
+    transform: scale(1.1);
+  }
+}
