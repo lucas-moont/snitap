@@ -1,0 +1,7 @@
+.bag-link{
+  transition: 0.5s;
+
+  &:hover{
+    transform: rotate(-45deg);
+  }
+}
