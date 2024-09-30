@@ -5,6 +5,7 @@
 
 @import './utils/text-colors.scss';
 @import './utils/flex.scss';
+@import './utils/grid.scss';
 @import './utils/alignments';
 
 @import './utils/gaps.scss';
@@ -20,6 +21,9 @@
 @import './components/logo-link.scss';
 @import './components/btns/sizes.scss';
 @import './components/btns/main-btns.scss';
+@import './components/pre-title';
+
 
 @import './sections/hero.scss';
-@import './components/divider.scss'
+@import './components/divider.scss';
+@import './sections/use-snitap.scss';

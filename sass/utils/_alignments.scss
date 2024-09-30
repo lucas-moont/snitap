@@ -1,7 +1,15 @@
+.justified-center{
+  justify-content: center;
+}
+
 .justified-space-between{
   justify-content: space-between;
 }
 
 .aligned-center{
   align-items: center;
+}
+
+.justified-flex-end{
+  justify-content: flex-end;
 }
