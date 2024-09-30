@@ -1,0 +1,13 @@
+.animated-change-bg-color{
+  animation: change-bg-color 3s infinite both alternate;
+}
+
+@keyframes change-bg-color{
+  0%{
+    background-color: $sky-light;
+  }
+
+  100%{
+    background-color: $joy-light;
+  }
+}
