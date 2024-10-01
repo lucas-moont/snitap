@@ -1,4 +1,8 @@
 .big-btn{
   padding: 24px 48px;
   font-size: 1.6rem;
+
+  @include mobile{
+    padding: 12px 24px;
+  }
 }

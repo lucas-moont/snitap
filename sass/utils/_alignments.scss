@@ -13,3 +13,9 @@
 .justified-flex-end{
   justify-content: flex-end;
 }
+
+.aligned-start-at-mobile{
+  @include mobile{
+    align-items: flex-start;
+  }
+}

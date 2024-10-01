@@ -17,6 +17,11 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
+
+      @include mobile{
+        height: 5.8rem;
+        width: 5.8rem;
+      }
     }
   }
 }

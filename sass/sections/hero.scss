@@ -2,13 +2,26 @@
   padding-top: 64px;
   padding-bottom: 64px;
 
+  @include mobile{
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
   h1{
     font-size: 6.4rem;
     vertical-align: bottom;
     margin-bottom: 32px;
+
+    @include mobile{
+      font-size: 3.2rem;
+    }
   }
 
   .container{
+    @include mobile{
+      gap: 16px;
+    }
+    
     & > div{
       &:nth-of-type(1){
         width: 55%;
@@ -50,6 +63,15 @@
         img{
           position: relative;
           z-index: 2;
+        }
+      }
+    }
+    .col{
+
+      &:nth-of-type(1),
+      &:nth-of-type(2){
+        @include mobile{
+          width: 100%;
         }
       }
     }
