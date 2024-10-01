@@ -1,0 +1,16 @@
+.animated-appear-from-bottom{
+  animation: appear-from-bottom 1s linear;
+  animation-timeline: view();
+  animation-range: entry;
+}
+
+@keyframes appear-from-bottom{
+  0%{
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
