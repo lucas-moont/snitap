@@ -3,6 +3,10 @@ header{
   display: flex;
   justify-content: center;
 
+  @include mobile{
+    padding: 16px;
+  }
+
   .bag-link{
     position: relative;
     display: inline-flex;
