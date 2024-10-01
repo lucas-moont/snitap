@@ -3,6 +3,10 @@
   text-align: center;
   overflow-y: clip;
 
+  @include mobile{
+    padding: 64px 16px;
+  }
+
   .pre-title {
     margin-bottom: 8px;
   }
@@ -13,11 +17,23 @@
       "area1 area2 area2"
       "area3 area3 area4";
 
+      @include mobile{
+        grid-template-columns: 1fr;
+        grid-template-areas: "area1"
+        "area2"
+        "area3"
+        "area4";
+      }
+
     .col {
       height: 400px;
       position: relative;
       border-radius: 4rem;
       overflow: clip;
+
+      @include mobile{
+        height: 260px;
+      }
 
       &::after {
         content: "";
